@@ -6,7 +6,7 @@ const { loginHandler, profileHandler }= require("../../controllers/authControlle
 const router = Router(); 
 
 router.post('/login', loginHandler)
-router.get('/user', getAllUsers);
-router.post('/user/createUser', createUser)
+router.get('/getuser', getAllUsers);
+router.post('/createUser', createUser)
 
 module.exports = router; 
